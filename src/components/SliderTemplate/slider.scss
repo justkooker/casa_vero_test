@@ -1,0 +1,14 @@
+@import "../../styles/global.scss";
+@import "../../styles/vars.scss";
+
+.swiper-pagination {
+    @extend .main-text;
+    position: static;
+    color: $black-80;
+    width: fit-content;
+    height: fit-content;
+}
+.button-prev, .button-next {
+    position: static;
+    
+}

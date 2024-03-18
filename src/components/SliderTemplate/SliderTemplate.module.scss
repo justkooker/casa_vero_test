@@ -1,0 +1,28 @@
+@import "../../styles/global.scss";
+@import "../../styles/vars.scss";
+@import "../../styles/mixins.scss";
+@import "./slider.scss";
+.slider {
+    margin-bottom: 31px;
+    &__title {
+        @extend .h3;
+        color: $black-80;
+        font-weight: 500;
+        margin: 0;
+    }
+    &__btns {
+        gap: 20px;
+    }
+    &__nav {
+        @include d-flex($jc: space-between, $ai: center, $g: 30px);
+    }
+}
+.slider,
+.slider__btns {
+    @include d-flex($jc: space-between, $ai: center);
+}
+
+.flex {
+    @include d-flex($jc: space-between);
+    margin-bottom: 31px;
+}

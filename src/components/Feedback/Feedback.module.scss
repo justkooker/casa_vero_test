@@ -1,0 +1,32 @@
+@import "../../styles/global.scss";
+@import "../../styles/vars.scss";
+@import "../../styles/mixins.scss";
+.container {
+    margin-bottom: 157px;
+}
+.feedback {
+    padding: 30px 37px;
+    border: 1px solid $black-100;
+    border-radius: 10px;
+     &__text {
+        @extend .main-text;
+        color: $black-60;
+        opacity: 0.8;
+        margin: 0;
+    }
+}
+.user {
+    @include d-flex($ai:center,$g:20px);
+    margin-bottom: 15px;
+    &__container {
+        @include d-flex($fd:column)
+    }
+    &__name {
+        @extend .main-text;
+        color: $black-100;
+        line-height: 1.875;
+        font-weight: 500;
+        margin: 0;
+    }
+   
+}

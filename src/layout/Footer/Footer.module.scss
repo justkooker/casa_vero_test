@@ -1,0 +1,46 @@
+@import "../../styles/vars.scss";
+@import "../../styles/global.scss";
+@import "../../styles/mixins.scss";
+
+.footer {
+    padding-top: 46px;
+    border-top: 1px solid $black-20;
+    &__menu {
+        width: 100%;
+        max-width: 416px;
+    }
+    &__bottomSide {
+        @include d-flex($ai: center);
+        height: 93px;
+        background-color: $black-80;
+    }
+    &__license {
+        @extend .little-text;
+        color: $white;
+    }
+    &__container {
+        @include d-flex($jc: space-between, $ai: center);
+    }
+}
+.container {
+    @include d-flex($jc: space-between, $g: 130px);
+}
+.list {
+    margin: 0;
+    margin-bottom: 52px;
+    &:first-child {
+        flex-grow: 1;
+    }
+    &__item {
+        @extend .main-text;
+        color: $black-60;
+        opacity: 0.8;
+        padding-top: 0;
+        margin-bottom: 11px;
+        &:first-child {
+            color: $black-80;
+            opacity: 1;
+            margin-bottom: 20px;
+        }
+    }
+}

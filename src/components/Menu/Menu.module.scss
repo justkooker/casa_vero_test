@@ -1,0 +1,10 @@
+@import "../../styles/vars.scss";
+@import "../../styles/mixins.scss";
+@import "../../styles/global.scss";
+.menu {
+    @include d-flex($jc: space-between, $g: 30px);
+    text-transform: uppercase;
+    &__item {
+        @extend .main-text;
+    }
+}

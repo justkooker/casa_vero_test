@@ -1,0 +1,48 @@
+@import "../../styles/global.scss";
+@import "../../styles/vars.scss";
+@import "../../styles/mixins.scss";
+.hotGoods {
+    position: relative;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+.card {
+    width: 100%;
+    max-width: 370px;
+    & p {
+        margin: 0;
+    }
+    &__img {
+        position: relative;
+        margin-bottom: 11px;
+        & img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    &__name {
+        @extend .h4;
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: $black-80;
+        font-weight: 500;
+    }
+    &__option {
+        @extend .main-text;
+        color: $black-60;
+    }
+    &__category {
+        @extend .main-text;
+        color: $black-60;
+        margin-bottom: 10px;
+    }
+    &__price {
+        color: #4aaa4e;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 2;
+    }
+    &__currency {
+        font-size: 0.9rem;
+    }
+}

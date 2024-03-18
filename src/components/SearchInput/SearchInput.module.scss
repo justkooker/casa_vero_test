@@ -1,0 +1,24 @@
+@import "../../styles/vars.scss";
+@import "../../styles/mixins.scss";
+@import "../../styles/vars.scss";
+.search {
+    @include d-flex($ai: center);
+    height: 40px;
+    background-color: $black-10;
+    border-radius: 15px;
+
+    &__btn {
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        padding: 9px 9px 9.5px;
+        cursor: pointer;
+    }
+    &__input {
+        background-color: transparent;
+        border: none;
+        &:focus-visible {
+            outline: none;
+        }
+    }
+}

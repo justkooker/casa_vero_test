@@ -1,0 +1,12 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/global.scss";
+.button {
+    @include d-flex($ai: center, $jc: center);
+    background-color: inherit;
+    border: none;
+    font-size: inherit;
+    font-family: inherit, sens-serif;
+    &:hover {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,19 @@
+$black-100: #000000;
+$black-80: #343434;
+$black-60: #626262;
+$black-40: #959595;
+$black-20: #cccccc;
+$black-10: #e8e8e8;
+$white: #ffffff;
+$main-font-size: 16px;
+
+:export {
+    black100:$black-100;
+    black80: $black-80;
+    black60:$black-60;
+    black40:$black-40;
+    black20:$black-20;
+    black10:$black-10;
+    white: $white;
+   mainFontSize :$main-font-size
+}

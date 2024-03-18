@@ -1,0 +1,16 @@
+@import "./slider.scss";
+@import '../../styles/vars.scss';
+.slider {
+    position: relative;
+    width: 100%;
+    &__img {
+        width: 100%;
+        & img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+.customDot {
+    width: 10px;
+}
