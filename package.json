@@ -1,4 +1,5 @@
 {
+  "homepage": "https://justkooker.github.io/casa_vero_test/",
   "name": "test_casa_vero",
   "version": "0.1.0",
   "private": true,
@@ -16,8 +17,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +43,7 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "gh-pages": "^6.1.1",
     "prettier": "^3.2.5"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
@@ -54,6 +56,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/justkooker/casa_vero_test/issues"
-  },
-  "homepage": "https://github.com/justkooker/casa_vero_test#readme"
+  }
 }
