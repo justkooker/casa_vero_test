@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/justkooker/casa_vero_test/static/css/main.96399782.css",
-    "main.js": "/justkooker/casa_vero_test/static/js/main.1dd3eaa8.js",
-    "static/media/slider-image-min.png": "/justkooker/casa_vero_test/static/media/slider-image-min.d8e26df50d39e4ff517e.png",
-    "static/media/second-image-min.png": "/justkooker/casa_vero_test/static/media/second-image-min.01f06000570be732c7a7.png",
-    "static/media/chain-min.png": "/justkooker/casa_vero_test/static/media/chain-min.097d76f16812680100a4.png",
-    "static/media/shirt-min.png": "/justkooker/casa_vero_test/static/media/shirt-min.45ce7c66e0073abccb8e.png",
-    "static/media/thermal-underwear-min.png": "/justkooker/casa_vero_test/static/media/thermal-underwear-min.731c8cedc908f25187e7.png",
-    "static/media/Logo.svg": "/justkooker/casa_vero_test/static/media/Logo.96798562f3a917d4a1bdc1f714a65a95.svg",
-    "static/media/iconSprite.svg": "/justkooker/casa_vero_test/static/media/iconSprite.82844b950fb6172ec7138877985f7781.svg",
-    "static/media/slick.svg": "/justkooker/casa_vero_test/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/justkooker/casa_vero_test/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/justkooker/casa_vero_test/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/justkooker/casa_vero_test/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/justkooker/casa_vero_test/index.html",
-    "main.96399782.css.map": "/justkooker/casa_vero_test/static/css/main.96399782.css.map",
-    "main.1dd3eaa8.js.map": "/justkooker/casa_vero_test/static/js/main.1dd3eaa8.js.map"
+    "main.css": "/casa_vero_test/static/css/main.290ff532.css",
+    "main.js": "/casa_vero_test/static/js/main.2ff8c513.js",
+    "static/media/slider-image-min.png": "/casa_vero_test/static/media/slider-image-min.d8e26df50d39e4ff517e.png",
+    "static/media/second-image-min.png": "/casa_vero_test/static/media/second-image-min.01f06000570be732c7a7.png",
+    "static/media/chain-min.png": "/casa_vero_test/static/media/chain-min.097d76f16812680100a4.png",
+    "static/media/shirt-min.png": "/casa_vero_test/static/media/shirt-min.45ce7c66e0073abccb8e.png",
+    "static/media/thermal-underwear-min.png": "/casa_vero_test/static/media/thermal-underwear-min.731c8cedc908f25187e7.png",
+    "static/media/Logo.svg": "/casa_vero_test/static/media/Logo.96798562f3a917d4a1bdc1f714a65a95.svg",
+    "static/media/iconSprite.svg": "/casa_vero_test/static/media/iconSprite.82844b950fb6172ec7138877985f7781.svg",
+    "static/media/slick.svg": "/casa_vero_test/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/casa_vero_test/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/casa_vero_test/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/casa_vero_test/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/casa_vero_test/index.html",
+    "main.290ff532.css.map": "/casa_vero_test/static/css/main.290ff532.css.map",
+    "main.2ff8c513.js.map": "/casa_vero_test/static/js/main.2ff8c513.js.map"
   },
   "entrypoints": [
-    "static/css/main.96399782.css",
-    "static/js/main.1dd3eaa8.js"
+    "static/css/main.290ff532.css",
+    "static/js/main.2ff8c513.js"
   ]
 }
